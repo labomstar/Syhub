@@ -15,7 +15,7 @@
         "easysell_cod_form_app_block_yJJKgn": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
-            "product": "{{ product }}"
+            "product": ""
           }
         }
       },
@@ -94,7 +94,7 @@
         "description_3zXyTq"
       ],
       "settings": {
-        "media_sticky": false
+        "media_sticky": true
       }
     },
     "recently_viewed_VMKhAU": {
