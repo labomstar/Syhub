@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "product_recommendations_mCUedn": {
+      "type": "product-recommendations",
+      "name": "Product recommendations",
+      "settings": {
+        "swiper_view": true,
+        "item_in_row": 4,
+        "show_pagination_row": true
+      }
+    },
     "main": {
       "type": "product",
       "blocks": {
@@ -32,6 +41,7 @@
         },
         "guarantee_wi6VJH": {
           "type": "guarantee",
+          "disabled": true,
           "settings": {
             "guarantee_title": "Your Guarantee",
             "guarantee_description": "<p>✔️ 100% Original Product – Cash on Delivery – Easy Returns</p>"
@@ -69,15 +79,6 @@
       ],
       "settings": {
         "media_sticky": false
-      }
-    },
-    "product_recommendations_mCUedn": {
-      "type": "product-recommendations",
-      "name": "Product recommendations",
-      "settings": {
-        "swiper_view": true,
-        "item_in_row": 4,
-        "show_pagination_row": true
       }
     },
     "recently_viewed_VMKhAU": {
