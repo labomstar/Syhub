@@ -4,6 +4,8 @@
   dir="{% if request.locale.iso_code == 'ar' %}rtl{% else %}ltr{% endif %}"
 >
   <head>
+ {%- if content_for_header contains 'tapita-seo-script-tags' -%}{%- include 'tapita-seo-schema' -%}{%- endif -%} 
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -26,7 +28,7 @@
     </noscript>
 
     {% render 'color-schemes' %}
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
     {{ content_for_header }}
 
     <style>
