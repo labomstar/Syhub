@@ -67,7 +67,6 @@
         "description_3zXyTq",
         "checkout_buttons_qyNBRV"
       ],
-      "disabled": true,
       "settings": {
         "media_sticky": false
       }
@@ -93,8 +92,8 @@
     }
   },
   "order": [
-    "main",
     "product_recommendations_mCUedn",
+    "main",
     "recently_viewed_VMKhAU",
     "same_vendor_products_pBJqd6"
   ]
