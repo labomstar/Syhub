@@ -31,7 +31,7 @@
     "button_background_hover_color": "#ffffff",
     "button_hover_effect": "shadow_temporary",
     "color_map": "014 : #B97872,\n07 : #A95A57,\n08 : #9D4840,\n010 : #F15354,\n01 : #E0808E,\n03 : #D8CAC8,\n02 : #A96762,",
-    "enable_color_swatches": false,
+    "enable_color_swatches": true,
     "productcards_text_alignment": "text-center",
     "show_sale_label": true,
     "sale_label_price": "percentage",
