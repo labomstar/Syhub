@@ -15,7 +15,6 @@
         "vendor_DCGKh8": {
           "type": "vendor",
           "settings": {
-            "vendor_image": "shopify://shop_images/logo.png",
             "vendor_type": "image"
           }
         },
@@ -35,7 +34,6 @@
           "type": "guarantee",
           "settings": {
             "guarantee_title": "Your Guarantee",
-            "guarantee_image": "shopify://shop_images/brandvip_original_badge_430x_92b88575-32b3-45a5-9d1a-86c511156d2f.avif",
             "guarantee_description": "<p>✔️ 100% Original Product – Cash on Delivery – Easy Returns</p>"
           }
         },
@@ -69,7 +67,9 @@
         "description_3zXyTq",
         "checkout_buttons_qyNBRV"
       ],
-      "settings": {}
+      "settings": {
+        "media_sticky": true
+      }
     },
     "product_recommendations_mCUedn": {
       "type": "product-recommendations",
