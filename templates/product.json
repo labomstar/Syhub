@@ -92,12 +92,28 @@
       "type": "same-vendor-products",
       "name": "Same Vendor Products",
       "settings": {}
+    },
+    "1757537587dcbfd359": {
+      "type": "apps",
+      "blocks": {
+        "easysell_cod_form_app_block_yJJKgn": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "{{ product }}"
+          }
+        }
+      },
+      "block_order": [
+        "easysell_cod_form_app_block_yJJKgn"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "product_recommendations_mCUedn",
     "main",
     "recently_viewed_VMKhAU",
-    "same_vendor_products_pBJqd6"
+    "same_vendor_products_pBJqd6",
+    "1757537587dcbfd359"
   ]
 }
