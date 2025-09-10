@@ -33,6 +33,7 @@
         },
         "price_HrdwKV": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "sku_PzLWCN": {
@@ -50,7 +51,7 @@
         "product_variant_hcWX3J": {
           "type": "product-variant",
           "settings": {
-            "variant_display_type": "color"
+            "variant_display_type": "image"
           }
         },
         "quantity_bQNMJy": {
