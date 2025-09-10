@@ -9,21 +9,6 @@
  */
 {
   "sections": {
-    "1757537587dcbfd359": {
-      "type": "apps",
-      "blocks": {
-        "easysell_cod_form_app_block_yJJKgn": {
-          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "easysell_cod_form_app_block_yJJKgn"
-      ],
-      "settings": {}
-    },
     "product_recommendations_mCUedn": {
       "type": "product-recommendations",
       "name": "Product recommendations",
@@ -97,6 +82,21 @@
         "media_sticky": true
       }
     },
+    "1757540118bcd0b8a3": {
+      "type": "apps",
+      "blocks": {
+        "easysell_cod_form_app_block_nXyFz9": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "easysell_cod_form_app_block_nXyFz9"
+      ],
+      "settings": {}
+    },
     "recently_viewed_VMKhAU": {
       "type": "recently-viewed",
       "disabled": true,
@@ -110,9 +110,9 @@
     }
   },
   "order": [
-    "1757537587dcbfd359",
     "product_recommendations_mCUedn",
     "main",
+    "1757540118bcd0b8a3",
     "recently_viewed_VMKhAU",
     "same_vendor_products_pBJqd6"
   ]
